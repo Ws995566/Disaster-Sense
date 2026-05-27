@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Training Results
+results/
+results_urgency/
+logs/
+logs_urgency/
+
+# Models
+models/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+#Results
+results_english/
+results_urgency/
+results_indobert/
