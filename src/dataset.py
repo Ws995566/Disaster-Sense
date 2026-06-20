@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from preprocessing import clean_text
+from src.Preprocessing.preprocessing import clean_text
 
 df = pd.read_csv('data/raw/kaggle/train.csv')
 

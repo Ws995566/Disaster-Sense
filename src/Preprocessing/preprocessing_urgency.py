@@ -1,7 +1,7 @@
 import pandas as pd
 import glob 
 
-from preprocessing import clean_text
+from src.Preprocessing.preprocessing import clean_text
 from sklearn.model_selection import train_test_split
 
 #====================================================================
